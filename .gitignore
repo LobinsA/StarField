@@ -11,4 +11,4 @@ Saved
 *.xcodeproj
 *.xcworkspace
 .vs/
-Content/Megascans
+*.zip
