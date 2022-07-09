@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\Move.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\Move.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\StarField.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\StarField.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\StarField.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	}
+]

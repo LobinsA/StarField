@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "StarFieldEditor Editor Win64 Development (StarField)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_StarField.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
