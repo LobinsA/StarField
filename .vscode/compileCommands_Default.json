@@ -23,5 +23,15 @@
 		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\StarField.h",
 		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_Default\\StarField.211.rsp\"",
 		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\Teleporter.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_Default\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\Unreal Projects\\StarField\\Source\\StarField\\Teleporter.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Unreal Projects\\StarField\\.vscode\\compileCommands_Default\\StarField.211.rsp\"",
+		"directory": "D:\\Programs\\UE_5.0\\Engine\\Source"
 	}
 ]
