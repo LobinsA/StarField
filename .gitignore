@@ -11,4 +11,5 @@ Saved
 *.xcodeproj
 *.xcworkspace
 .vs/
-*.zip
+*.zip\
+ParagonGideon
