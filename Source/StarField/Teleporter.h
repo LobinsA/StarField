@@ -18,5 +18,12 @@ protected:
 public:
 	ATeleporter();
 	UFUNCTION()
-	void Teleporter(class AActor* overlappingActor, class AActor* otherActor);
-};	
+	void EnterTeleporter(class AActor* overlappingActor, class AActor* otherActor);
+	UFUNCTION()
+	void ExitTeleporter(class AActor* overlappingActor, class AActor* otherActor);
+
+	UPROPERTY(EditAnywhere, Category = "Teleporter")
+	ATeleporter* otherTele;
+	UPROPERTY()
+	bool teleporting;
+};

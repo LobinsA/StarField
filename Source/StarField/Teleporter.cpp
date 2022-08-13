@@ -1,12 +1,15 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "GameFramework/Character.h"
+#include "Kismet/GameplayStatics.h"
 #include "Teleporter.h"
 #include "GameFramework/Actor.h"
 
 ATeleporter::ATeleporter()
 {
-    OnActorBeginOverlap.AddDynamic(this, &ATeleporter::Teleporter);
+    OnActorBeginOverlap.AddDynamic(this, &ATeleporter::EnterTeleporter);
+    OnActorBeginOverlap.AddDynamic(this, &ATeleporter::ExitTeleporter);
+    teleporting = false;
 }
 
 void ATeleporter::BeginPlay()
@@ -14,11 +17,31 @@ void ATeleporter::BeginPlay()
     Super::BeginPlay();
 }
 
-void ATeleporter::Teleporter(AActor* overlappingActor, AActor* otherActor)
+void ATeleporter::EnterTeleporter(AActor* overlappingActor, AActor* otherActor)
 {
-    UE_LOG(LogTemp, Display, TEXT("Entered Teleporter %s with %s"), *overlappingActor->GetName(),*otherActor->GetName());
     if (otherActor && otherActor != this)
     {
-        otherActor->SetActorLocation(FVector(0,0,2000));
+        if (otherTele)
+        {   
+            ACharacter* character = Cast<ACharacter>(otherActor);
+            if (character && !otherTele->teleporting)
+            {
+                teleporting = true;
+                character->SetActorRotation(otherTele->GetActorRotation());
+                character->GetController()->SetControlRotation(character->GetActorRotation());
+                character->SetActorLocation(otherTele->GetActorLocation());
+            }
+        }
+    }
+}
+
+void ATeleporter::ExitTeleporter(AActor* overlappingActor, AActor* otherActor)
+{
+    if (otherActor && otherActor)
+    {
+        if (otherTele && !teleporting)
+        {
+            otherTele->teleporting = false;
+        }
     }
 }
